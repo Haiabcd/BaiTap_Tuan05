@@ -74,14 +74,20 @@
     /* product title */
     
     .product-title {
-        margin-top: 150px;
-        margin-bottom: 40px;
-        width: 100%;
+        width: 75%;
+        margin: auto;
         /* display: flex; */
     }
     
     .wrap-title {
         display: flex;
+        padding: 16px 0;
+        justify-content: space-between;
+    }
+    
+    .title-left-wrap {
+        display: flex;
+        align-items: center;
     }
     
     .top {
@@ -98,7 +104,7 @@
     }
     
     .center {
-        padding: 24px;
+        /* padding: 24px; */
     }
     /* bottom-left */
     
